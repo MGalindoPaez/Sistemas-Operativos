@@ -1,4 +1,4 @@
-/**************************************************
+;/**************************************************
  * Pontificia Universidad Javeriana
  * Autor: Mateo Galindo	
  * Fecha: 09/10/2025
@@ -14,6 +14,7 @@
 
 int main(){
 	/*Se invoca la creacion del proceso en un INT para*/
+	/* fork() devuelve un valor entero distinto segun el proceso*/
 	int procesoID = fork();
 
 	if(procesoID>0){

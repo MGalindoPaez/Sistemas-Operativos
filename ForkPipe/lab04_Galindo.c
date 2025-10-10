@@ -32,7 +32,7 @@ int main() {
 
     /* SE DUPLICA EL PROCESO */
     if (hijo_PID == 0) {
-        /* ====== PROCESO HIJO ====== */
+        /*  PROCESO HIJO  */
         printf("\n[HIJO] Mi PID es %d, el PID de mi padre es %d\n", getpid(), getppid());
 
         /* Cerrar salida para lectura del pipe */
@@ -52,7 +52,7 @@ int main() {
         close(pipefd[0]); /* Cerrar extremo de lectura */
     } 
     else {
-        /* ====== PROCESO PADRE ====== */
+        /* PROCESO PADRE */
         printf("\n[PADRE] Mi PID es %d, el PID de mi hijo es %d\n", getpid(), hijo_PID);
 
         /* Cerrar entrada para lectura (solo escritura) */
