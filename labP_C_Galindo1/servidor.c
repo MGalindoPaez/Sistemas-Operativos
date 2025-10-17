@@ -1,3 +1,13 @@
+/* ##########################
+ * Pontificia Universidad Javeriana
+ * Autor: Mateo Galindo
+ * Materia: Sistemas Operativos
+ * Tema: Implementacion de productor-consumidor a partir de pipe named
+ * Descripcion:
+ * - Archivo servidor que recibe mensajes del cliente a traves de una FIFO
+ *   y responde con un mensaje de confirmacion.
+ ####################################*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

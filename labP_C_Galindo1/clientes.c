@@ -4,7 +4,7 @@
  * Materia: Sistemas operativos
  * Tema: Implementacion de productor consumudor a partir de pipe named 
  * Descrpicion:
- * -Archivo servidor que permite _________
+ * -Archivo liente que permite enviar mensajes a un servidor a traves de una FIFO.
  ####################################*/
 
 #include <stdio.h>
