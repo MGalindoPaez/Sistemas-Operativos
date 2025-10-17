@@ -1,0 +1,5 @@
+# Ignorar ejecutables y archivos binarios
+*.out
+clientes
+servidor
+*.o
